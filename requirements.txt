@@ -1,3 +1,4 @@
 torch==1.0.0
 torchvision==0.2.1
 runway-python
+gevent>=23.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
